@@ -127,7 +127,7 @@ export default class Preview {
       false,
       document.uri.fsPath,
       'skip',
-      workspace.getConfiguration('mjml').mjmlConfigPath,
+      workspace.getConfiguration('mjml').mjmlPreviewConfigPath ?? workspace.getConfiguration('mjml').mjmlConfigPath,
     )
 
     if (html) {

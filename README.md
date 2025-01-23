@@ -81,6 +81,7 @@ The following command is available:
 | `mjml.templateGalleryAutoClose` | `true` | Automatically close template gallery when selecting a template. |
 | `mjml.switchOnSeparateFileChange` | `true` | Automatically switch previews when editing a different file. |
 | `mjml.mjmlConfigPath` | ` ` | The path or directory of the .mjmlconfig (or .mjmlconfig.js) file (for custom components use) |
+| `mjml.mjmlPreviewConfigPath` | ` ` | The path or directory of the .mjmlconfig (or .mjmlconfig.js) file (for custom components use) used only for preview |
 
 
 ## Snippets
